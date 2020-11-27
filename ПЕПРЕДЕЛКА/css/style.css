@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#Special {
+  margin-top: 25px;
+}
+
+#Special .special-item {
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+}
+
+#Special .special-item .featured-text {
+  position: absolute;
+  top: 10%;
+  left: 18px;
+  z-index: 1;
+}
+
+#Special .special-item .special-text {
+  color: white;
+  position: absolute;
+  top: 70%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 0 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Special .special-item .special-text a {
+  margin-top: 4em;
+  opacity: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Special .special-item:hover a {
+  opacity: 1;
+}
+
+#Special .special-item:hover .special-text {
+  top: 60%;
+}
+
+#Special .special-item:hover .special-img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#Special .special-item .special-img {
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#Special .special-item .special-img.spec-1 {
+  background-image: url(https://mixmap.travelerwp.com/wp-content/uploads/2019/02/image_banner_1.jpg);
+}
+
+#Special .special-item .special-img.spec-2 {
+  background-image: url(https://mixmap.travelerwp.com/wp-content/uploads/2019/02/image_banner_2.jpg);
+}
+
+#Special .special-item .special-img.spec-3 {
+  background-image: url(https://mixmap.travelerwp.com/wp-content/uploads/2019/02/image_banner_3.jpg);
+}
+/*# sourceMappingURL=style.css.map */
